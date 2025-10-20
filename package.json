@@ -1,11 +1,10 @@
 {
   "name": "kek",
   "version": "1.0.0",
-  "type": "module",
   "scripts": {
-    "start": "node server.js"
+    "start": "npx serve -s . -l $PORT"
   },
   "dependencies": {
-    "express": "^4.19.0"
+    "serve": "^14.2.0"
   }
 }
