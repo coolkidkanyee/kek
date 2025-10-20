@@ -1,0 +1,5 @@
+services:
+  - name: kek
+    type: static
+    static:
+      source_dir: .
